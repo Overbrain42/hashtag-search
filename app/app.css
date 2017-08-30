@@ -1,0 +1,17 @@
+/* app css stylesheet */
+
+.tweet {
+  margin: 15px;
+}
+
+.tweet-avatar-wrapper {
+  display: inline-block
+}
+
+.tweet-avatar-wrapper div {
+  vertical-align: bottom
+}
+
+.avatar {
+  display: inline-block
+}
