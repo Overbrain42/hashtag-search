@@ -30,7 +30,7 @@
 <div ng-app="myApp" ng-controller="mainController" ng-init="init()">
     <h1 class="header center">Welcome to Hashtag service</h1>
     <div class="row">
-        <div class="col m4 offset-m4 center-align">
+        <form ng-submit="getToken()" class="col m4 offset-m4 center-align">
             <input class="row center" type="text" ng-model="hashtag">
             <button class="btn waves-effect waves-light" ng-click="getToken()">Search for tags!</button>
             <br>
@@ -43,7 +43,7 @@
                     <span class="copy">{{tweet.text}}</span>
                 </div>
             </div>
-        </div>
+        </form>
     </div>
 
 
